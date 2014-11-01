@@ -1,0 +1,161 @@
+@font-face{
+  font-family: 'Archistico Bold';
+  src: url('fonts/archistico/Archistico_Simple.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+body{
+font-size: 24pt;
+}
+
+#container{
+margin-left:175px;
+padding-left:10%;
+margin-top:5%;
+}
+
+#today{
+	font-family: 'Archistico Bold';
+	color:#4f3d19;
+	font-size:1.5em;
+}
+
+.writehere{
+	
+width:65%;
+	
+padding-left: 30px;
+	
+padding-right:30px;
+	
+/*margin-left:175px;*/
+	
+max-height:50%;
+	
+height:300px;
+
+font-size:0.5em;
+}
+
+
+
+.action{
+	
+border-radius: 3px;
+	
+background-color: #cd9944;
+	
+color: #eeeeee;
+	
+border:0;
+	
+padding:5px;
+	
+font-weight:bold;
+
+background-image: url('img/buttonbg.png');
+background-size: cover;
+cursor:pointer;
+}
+
+
+
+.placeholder{
+	
+color: #cccccc;
+	
+
+}
+
+
+
+#donewriting{
+	
+margin-top:15px;
+	
+margin-left:auto;
+	
+margin-right:auto;
+	
+display:block;
+
+font-size:0.8em;
+}
+
+
+
+#past{
+float:left;
+width:150px;
+color:#4f3d19;
+}
+
+#past p{
+font-size:0.8em;
+}
+
+#past h1{
+font-family: 'Archistico Bold';
+font-size:1.2em;
+}
+
+#past p:hover
+{
+cursor:pointer;
+text-decoration:underline;
+-moz-text-decoration-line:underline;
+-moz-text-decoration-style: dotted;
+-webkit-text-decoration-line:underline;
+-webkit-text-decoration-style: dotted;
+}
+
+.notifications{
+color: #bbbbbb;
+font-size:0.5em;
+padding-left:0em;
+text-align:right;
+width:70%;
+}
+
+#autosave{
+font-size:0.6em;
+margin-top:-0.8em;
+}
+
+#history-previous,#history-next{
+visibility:hidden;
+pointer-events:none;
+}
+
+#history-next{
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;	
+	border-top: 10px solid #ccc;
+}
+#history-next:hover{
+border-top: 10px solid #999;
+}
+#history-previous:hover{
+border-bottom: 10px solid #999;
+}
+
+#history-previous{
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;	
+	border-bottom: 10px solid #ccc;
+}
+
+#history-previous.button-visible, #history-next.button-visible{
+visibility:visible;
+pointer-events:auto;
+}
+
+.icon{
+height:0.8em;
+position:relative;
+float:right;
+top:0.3em;
+}

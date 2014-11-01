@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="behavior.js"></script>
+		<script type="text/javascript" src="writingarea.js"></script>
+		<script type="text/javascript" src="snippet.js"></script>
+		<script type="text/javascript" src="history.js"></script>
+	</head>
+	<body>
+		<div>
+			<div id="past">
+				<h1>Recently written</h1> 
+				<div id="history-previous"></div>
+				<div id="history-next"></div>
+			</div>
+			<div id="container">
+				<h1 id="today"></h1>
+				<textarea id="maintext" class="writehere placeholder" autofocus="true">
+					Start writing...
+				</textarea>
+				<div class="notifications">
+					<p id="message">&nbsp;</p>
+					<p id="autosave">&nbsp;</p>
+				</div>
+			</div>
+		</div>
+		<button id="donewriting" class="action">Done for now</button>
+		<div id="taglist"></div>
+	</body>
+</html>
