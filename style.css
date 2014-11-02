@@ -5,6 +5,7 @@
 
 body{
 font-size: 24pt;
+font-family:serif;
 }
 
 #container{
@@ -158,4 +159,29 @@ height:0.8em;
 position:relative;
 float:right;
 top:0.3em;
+}
+
+.new-button{
+float:right;
+padding:10px;
+color:#4f3d19;
+margin-right:15%;
+}
+
+.new-button .plus{
+font-size:3em;
+text-shadow: 2px 2px 0px #bbbbbb;
+font-family: 'Archistico Bold';
+cursor:pointer;
+vertical-align:sub;
+font-weight:bold;
+}
+
+.new-button .plus:hover{
+text-shadow: 3px 3px 2px #aaa;
+}
+
+.new-button .text{
+padding-left:3px;
+font-size:0.75em;
 }

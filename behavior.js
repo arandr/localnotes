@@ -108,6 +108,12 @@ window.onload = function(){
 		});
 	}
 	
+	document.getElementById("createNew").addEventListener("click", function(){
+		area.clear();
+		area.currentSnippet = null;
+		document.getElementById("message").innerHTML = "&nbsp;";
+	});
+	
 	setInterval(function(){
 	    return autosave(area);
 	}, 50000);
