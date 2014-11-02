@@ -85,6 +85,8 @@ window.onload = function(){
 		snip.save();
 		area.clear();
 		area.currentSnippet = null;
+	    history.load(true);
+		refreshHistory(history,area);
 	});
 	var history = new History();
 	history.load();
